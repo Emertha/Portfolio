@@ -13,6 +13,7 @@ body{
 	
 	background-color: #5d4b3a;
 	text-align: center;
+
 	height: 40px;
 
 }
@@ -36,7 +37,7 @@ body{
 
 }
 .socialdiv {
-	width: 1000px;
+	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 
@@ -44,28 +45,30 @@ body{
 .fb {
 	float: left;
 	height: 50px;
-	width: 250px;
+	width: 25%;
+
 }
 .ld {
 	float: left;
 	height: 50px;
-	width: 250px;
+	width: 25%;
 }
 .gplus {
 	float: left;
 	height: 50px;
-	width: 250px;
+	width: 25%;
 }
 .gh {
 	float: left;
 	height: 50px;
-	width: 250px;
+	width: 25%;
 }
 
 .fb:hover
 {
 	background-color: #4668b3;
 }
+
 .ld:hover
 {
 	background-color: #0077B5;
@@ -89,6 +92,7 @@ ul
 	line-height: 200%;
 	display: inline-block;
 	
+	width: 80%;
 
 }
 
@@ -102,13 +106,21 @@ ul a {
 
 ul > li {
 	float: left;
-	width: 250px;
+	width: 24%;
 	height: 40px;
 	border-right: 1px dashed #BA9875;
+	
 
+
+}
+
+.home {
+
+	border-left: 1px dashed #BA9875;
 }
 
 ul > li:hover {
 
 	background-color: #7C654E;
+
 }
