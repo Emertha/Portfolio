@@ -3,29 +3,152 @@
 
 }
 body{
-	margin: 0;
+	
     background: linear-gradient(to bottom, #f9cb9c 0%, #9ccaf9 100%);
 
 }
-.nav {
-
-	width: 100%;
-	
-	background-color: #5d4b3a;
-	text-align: center;
-
-	height: 40px;
-
-}
-
-
-.about_main {
+.welcome_img {
 
 	margin-left: auto;
 	margin-right: auto;
+	position: absolute; top: 0; right: 0; 
 	text-align: justify;
+  
+ 	background-image: url("canvas.png");
+ 	z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+  
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    
+ 	}
+
+h1 { color: #ffe6c4; font-family: 'Sedgwick Ave', cursive; font-size: 1.9rem; font-weight: normal; line-height: 2rem; margin-top: 40%; }
+
+h2 {   font-size: 1.5rem; font-weight: 300; color: #ffcc66; margin-top: 3%;  }
+
+h3 {color: #5d4b3a; font-family: 'Sedgwick Ave', cursive; font-size: 1.9rem; font-weight: normal; line-height: 2rem; }
+
+#nav {
+
+	width: 100%;
+	overflow: hidden;
+	background-color: #5d4b3a;
+	text-align: center;
+	z-index: 3;
+	height: 40px;
+
+
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  
+  margin-left: -2.5%;
+  width: 100%;
+}
+
+
+.about_img{
+	background-image: url("DSC02338.jpg");
+	position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 750px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.about_title{
+  
+  text-align: center;
+
+}
+.about_main {
+
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	padding: 20px;
+  	border-radius: 15%;
+
+ 	background-image: linear-gradient(rgba(253,241,228,0.8), rgba(253,241,228,0.8)), url("DSC021455.jpg");
+ 	content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+  
+    max-width: 90%;
+    height: auto;
+ 	
+/*opacity: 0.2;
+    -webkit-filter: sepia(100%);filter: sepia(100%);
+    filter: alpha(opacity=20);*/
+    }
+
+.projects_title{
+
+	text-align: center;
+}
+
+.projects_main{
+	
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	justify-content: center;
+  align-items: center;
+  position: relative;
+	
+	width: 100%;
+	height: auto;
+
+}
+
+.one_project > img{
+	margin-top: 8px;
+  
+	width: 80%;
+	
+}
+.one_project {
+    
+    
+    margin-left: 10%;
+    
+  }}
+@media screen and (max-width: 800px) {
+  .one_project {
+    flex: 50%;
+    max-width: 50%;
+    justify-content: center;
+    margin-left: 10%;
+    
+  }}
+
+  @media screen and (max-width: 600px) {
+  .one_project {
+  	
+    flex: 100%;
+    max-width: 100%;
+    margin-left: 17%;
+  }
+}
+
+.contact_title{
+	text-align: center;
+	
+}
 .socials {
 
 	text-align: center;
@@ -123,4 +246,9 @@ ul > li:hover {
 
 	background-color: #7C654E;
 
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
 }
