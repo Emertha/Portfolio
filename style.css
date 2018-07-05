@@ -58,7 +58,7 @@ h3 {color: #5d4b3a; font-family: 'Sedgwick Ave', cursive; font-size: 1.9rem; fon
 
 
 .about_img{
-	background-image: url("DSC02338.JPG");
+	background-image: url("DSC02338.jpg");
 	position: relative;
   width: 150px;
   height: 150px;
@@ -232,6 +232,28 @@ transform: scale(1.2,1.2);
 	text-align: center;
 	
 }
+
+.contact_main{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	padding: 20px;
+  	border-radius: 10%;
+  	margin-bottom: 2%;
+ 	background-image: linear-gradient(rgba(219,238,255,0.8), rgba(219,238,255,0.8)), url("canvas2.png");
+ 	content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+  	
+    max-width: 90%;
+    height: auto;
+
+}
+
+.contact_main > p{
+	font-size: 20px;
+}
 .socials {
 
 	text-align: center;
@@ -288,6 +310,14 @@ transform: scale(1.2,1.2);
 	background-color: #d95333;
 }
 
+.mail_change {
+color: #38527B;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 3px;
+
+}
+
 ul
 {
 	padding: 0;
@@ -334,4 +364,9 @@ ul > li:hover {
 a {
   color: black;
   text-decoration: none; /* no underline */
+}
+
+footer {
+
+	text-align: center;
 }
