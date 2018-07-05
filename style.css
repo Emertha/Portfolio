@@ -3,7 +3,7 @@
 
 }
 body{
-	
+	margin:0;
     background: linear-gradient(to bottom, #f9cb9c 0%, #9ccaf9 100%);
 
 }
@@ -15,7 +15,7 @@ body{
 	text-align: justify;
   
  	background-image: url("canvas.png");
- 	z-index: -1;
+ 	
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;
@@ -48,13 +48,13 @@ h3 {color: #5d4b3a; font-family: 'Sedgwick Ave', cursive; font-size: 1.9rem; fon
   position: fixed;
   top: 0;
   
-  margin-left: -2.5%;
+  margin-left: 0%;
   width: 100%;
 }
 
 
 .about_img{
-	background-image: url("DSC02338.JPG");
+	background-image: url("DSC02338.jpg");
 	position: relative;
   width: 150px;
   height: 150px;
