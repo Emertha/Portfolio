@@ -337,7 +337,7 @@ ul a {
 	color: #fdf1e6;
 	text-decoration: none;
 	display: block;
-	margin-top: 5px;
+	padding-top: 5px;
 }
 
 ul > li {
